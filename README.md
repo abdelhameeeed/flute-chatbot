@@ -1,1 +1,2 @@
-# flute-chatbot
+# flute-chatbot websiter 
+## chat-bot is trained/tested using Python and Neural Networks and integrated through website 
