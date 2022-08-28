@@ -1,0 +1,678 @@
+{
+	"intents": [{
+			"tag": "greeting",
+			"patterns": [
+				"Hi!",
+				"How are you?",
+				"Is anyone there?",
+				"Hello",
+				"Good day"
+			],
+			"responses": [
+				"Hello, thanks for visiting,how can I help?",
+				"Good to see you again,how can I help?",
+				"Hi there, how can I help?"
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "whtflute",
+			"patterns": [
+			  "What is a Flute?",
+			  "what do you know about flute"
+			],
+			"responses": [
+				"A flute can be described as a woodwind instrument, generally of a tubular shape, that is played by blowing across a specially-shaped opening (known as the embouchure) in such a way as to produce a vibrating column of air whose pulsations we hear as sound. This manner of generating sound by blowing directly across the embouchure distinguishes the flute from other woodwind instruments that produce sound through the use of one or two reeds. The embouchure may be situated either at the end of the tube, as in a recorder, or on the side of the tube, as in the modern flute. A flute whose embouchure is on the side of the tube often is referred to as a “transverse” flute because the player directs the airstream across the side of the tube."
+			]
+		},
+		
+		
+	       {
+			"tag": "note_range",
+			"patterns": [
+			  "What is the note range of a typical flute?"
+			  
+			],
+			
+			"responses": [
+				"Middle C, or C, is the note that you would find on the middle of the piano. An octave (eight notes above) would be C1. The next octave would be C2, etc."
+			]
+		},
+		
+		
+		
+			       {
+			"tag": "parts_note",
+			"patterns": [
+			  "How many parts does a flute have?"
+			  
+			],
+			
+			"responses": [
+				"four , There is a head joint which has the hole that you blow over, a body joint where all of the keys are pressed, and a foot joint that is worked entirely by the little finger on the right hand."
+			]
+		},
+		
+		
+				
+		
+			       {
+			"tag": "embouchure",
+			"patterns": [
+			  "What is the embouchure of a flautist?"
+			  
+			],
+			
+			"responses": [
+			"The mouth shape ,Flautists need to focus on their embouchure in order to produce clear notes."
+			]
+		},		
+		{
+			"tag": "owner",
+			"patterns": [
+				"Who is Jim Phelan ?"
+			],
+			"responses": [
+				"Jim Phelan, conservatory trained as a horn player, became general manager of the Verne Q. Powell Flute Company in 1981. It is there that he met Lillian Burkart who made flute bodies, keys, padded flutes and piccolos and tested instruments. Together in 1981 they founded Burkart-Phelan, Inc. to provide subcontract services to Powell for the manufacture of piccolos and in 1984, Jim acquired the Verne Q. Powell Company. He left Powell in 1989 to finish his mechanical engineering degree. Upon graduation Jim entered the world of mechanical engineering designing electron-beam guns, automobile components and surgical instruments. In 1997 Jim rejoined his partner in building instruments, uniting his engineering skill and his eighteen years of flute-making expertise.Today, Burkart-Phelan is a world leader in flute and piccolo manufacturing with their state-of-the-art workshop in Shirley, Massachusetts and Resona by Burkart factory in Jiashan, China. Lillian manages the Shirley workshop and Jim manages the Burkart-Phelan Asian Assets.In 1980 Jim authored the Complete Guide to the Flute. The second edition was completed in 2006. His lectures on repair, building and acoustics of musical instruments are in high demand worldwide.Burkart-Phelan, Inc. won the prestigious 2018 Manufacturer of the Year Award for creating and sustaining manufacturing jobs both in the U.S. and in Asia. also he is musician, mechanical engineer, flute maker and author, brings a level of expertise to flute making and repairing that is unmatched in the 21st century. Trained as a musician at New England Conservatory, Mr. Phelan also holds a degree in mechanical engi-neering from Northeastern University. He apprenticed in brass and woodwind repair while in high school and learned flute making with a prominent Boston firm. Mr. Phelan joined Burkart-Phelan, Inc. in 1995. His knowledge of materials, acoustics, manufacturing, and measurement are the corner- stone of the development of the Burkart Flute and the Burkart & Phelan Piccolo. He has produced a repair video, Flute Fitness, which, along with The Complete Guide to the Flute and Piccolo, passes information and training to the flutist, flute maker and repairers worldwide. A horn player, Mr. Phelan is also working on the Pope-Phelan French horn"
+			],
+			"context_set": ""
+		},
+        
+		{
+			"tag": "owner_1" ,
+			"patterns": [
+				"Who is LILLIAN B URKART?"
+			],
+			"responses": [
+			"has been a flute and piccolo maker since 1979 when she joined a prestigious Boston flute company and mastered every area of flute making. As founder and president of Burkart-Phelan Inc., founded in 1982, Ms. Burkart became devoted to improving and building hand- made piccolos. The Burkart Piccolo was premiered in 1990, setting new standards in exclusive craftsmanship and per- formance attributes. Her lectures on the piccolo and support of new works for the instrument have bolstered the status of the piccolo as a solo performance instrument. She continues to lead the industry with the development of new features, materials, mechanisms and headjoints for the piccolo and the flute. Ms. Burkart graduated from the Philadelphia College of the Performing Arts, having studied flute with Kyril Magg, Robert Cole, James Walker and John Krell. This husband and wife team collaborated to develop the Burkart Flute, which pre"
+			],
+			"context_set": ""
+		},
+        
+
+
+		{
+			"tag": "wave",
+			"patterns": [
+				"What is a wave?",
+				"What is a standing wave?"
+			],
+			"responses": [
+				"A wave is a feature of nature that moves energy from one place to another. Think of an ocean wave. Ocean waves are caused by many things, but all of those things are moving; wind,the moon, the ocean floor by earthquake, and volcanos. The kinetic (moving) energy that these things exert on the ocean move the water. They cause a ripple or wave and that radiates from the excitation point in every  direction. Sound waves are similar. Dropping a spoon onto the floor makes no sound until it contacts the floor. The impact causes the spoon to vibrate. Those vibrations, in turn, vibrate the air around them and the energy is broadcast in every direction as sound waves. Radio waves and other electro-magnetic waves are a bit different. Ocean waves and sound waves need a fluid medium for propagation.  Electromagnetic waves do not. Electromagnetic waves contain electric and magnetic vectors that work with/against each otherand can travel through vacuum. Whether the wave is mechanical (sound and fluid   waves) or electromagnetic (radio, x-ray, light) they are all mechanisms for carrying or moving energy from one place to another over time."
+			]
+		},
+		{
+			"tag": "crown",
+			"patterns": [
+				"How much does the weight of a headjoint crown affect the sound?"
+			],
+			"responses": [
+				"There are a few ways to look at this question. First, the weight of the headjoint crown adds to the total mass of the flute. There is an equation used for designing percussion instruments that goes like this: The small  is for frequency. E stands for Young’s modulus, a measure of stiffness. Rho is mass. So, as E goes up,  goes up. As rho goes up,  goes down. This makes sense. Stiff, brittle things like glasses have high pitches when struck. Massive, less brittle things like iron bells have low pitches. Therefore, as we add mass to our flute, we damp out the higher harmonics or partials from the sound and we get a darker, warmer timbre.Another way to look at this is as the flute player and flute as a system. The flute responds to the flutist playing it and the player responds to the way the flute feels in her hands. If the flute feels heavier, the player has a different feeling than if it is lighter and will adjust accordingly. All this said, the crown is separate from the vibrating mass of air inside the flute, so its affect on the sound is quite small and for most people will be unnoticeable."
+			]
+		},
+		{
+			"tag": "thin_tube",
+			"patterns": [
+				"Why can some flutes sound powerful despite having a thin and light tube?"
+			],
+			"responses": [
+				"The volume of sound a flute produces is a function of the air inside the tube, not the tube itself. Moreover, the volume depends greatly on the conversion of the moving air the player blows into the embouchure hole into acoustical energy. Let’s see how this happens. We know if blow lightly into the flute, we get a soft sound. More air, the more volume of sound. So, it follows that the volume of sound relates directly to the volume of air blown in. But there is also the efficiency with which the air is converted into sound waves. This depends on the geometry of the embouchure hole. So, if we find a light-body flute with a big sound, it is most likely the headjoint that is responsible. If we want to look specifically at the flute body tube and its affect on the volume of sound, we can borrow from calculus and use the concept of ‘limits’. If we made the body of the flute paper thin, so thin that it would vibrate from the sound waves inside of it, it would be taking energy away from the vibrating mass of air inside the flute and would greatly diminish the energy available to vibrate our eardrums. The harder and stiffer the tubing material, the less energy can transfer to the tube and the more energy is available for the listener to hear."
+			]
+		},
+		{
+			"tag": "materials",
+			"patterns": [
+				"How do materials affect a flute’s sound?"
+			],
+			"responses": [
+				"First, let’s distinguish between the two components of ‘sound’, pitch and timbre. Pitch is a scientific term. It is how many wave crests hit our ears per second. A-440 means 440 wave crests hit our ears per second. Imagine someone tapping a knife on a table or a drummer’s stick hitting the drum head. Now, imagine that happening 440 times in one second. It would sound the pitch we describe as A-440. Timber is another thing. Timbre is the color of the sound. Where pitch is two-dimensional, timbre is three-dimensional. Timbre can be bright or dark, harsh or sweet, depending on the mix of partials that comprise the tone. A physicist will tell you that the material of the flute, or any wind instrument for that matter, makes no difference. If you ask a musician, they’ll say, of course it makes a difference. Who’s right? The answer is the material the flute is made of makes a slight difference in the timbre and makes no difference in the pitch. The pitch is determined solely by the geometry of the flute – it’s embouchure hole, headjoint taper, bore, and toneholes. Anecdotally, heavier walled flutes have a darker timbre and thinner walled flutes have a brighter timbre. Gold and platinum flutes tend to have darker timbres. Here, we can put forth the hypothesis that it is the total mass of the flute and the hardness of the metal that affects the timbre. For more on this subject, please ask more specific questions about mass and hardness."
+			]
+		},
+		{
+			"tag": "timbre",
+			"patterns": [
+				"What is the difference between pitch and timbre?",
+				"What are the components of a musical sound?"
+			],
+			"responses": [
+				"Pitch is a scientific term. It is how many wave crests hit our ears per second. A-440 means 440 wave crests hit our ears per second. Imagine someone tapping a knife on a table or a drummer’s stick hitting the drum head. Now, imagine each happening 440 times in one second. Each would sound the pitch we describe as A-440, but the knife on the table and the drummer’s drumming would have different timbres.Timbre is the color of the sound. Where pitch is two-dimensional, timbre is three-dimensional. Timbre can be bright or dark, harsh or sweet, depending on the mix of partials that comprise the tone"
+			]
+		},
+		{
+			"tag": "harmonics",
+			"patterns": [
+				"What are harmonics?",
+				"What are harmonic partials?",
+				"What are partials?"
+			],
+			"responses": [
+				"A pure sine wave, like the sound from an orchestral tuner, is devoid of harmonics. The instruments of the orchestra produce complex wave forms that have a strong fundamental and then a mix of harmonics that are integer multiples of the fundamental. This graphic illustrates this concept.The strength of the harmonics above the fundamental is what differentiates one instrument from another. Here are the spectra of the flute and violin: {put the graph} One can see that the fundamental and the first harmonic of the flute are quite strong and the upper harmonics weak. The violin has a wider distribution of harmonics which results in its characteristic timbre."
+			]
+		},
+		{
+			"tag": "Benade",
+			"patterns": [
+				"Who was Arthur Benade?"
+			],
+			"responses": [
+				"Arthur Benade (1925 – 1987) was an American physicist, acoustician, and amateur musician. He earned his doctorate from Washington University and spent most of his life as professor of physics at Case-Western University. His primary research was in cosmic rays. Benade developed an interest in acoustics in his youth while with his family in India. He was fascinated by his grandfather’s piccolo and a six-keyed flute bought by the family cook at a bazaar. His physicist father grounded him in the writings of Dayton C. Miller, Lord Rayleigh, and Hermann von Helmholtz. Benade contributed greatly to the present-day understanding of musical acoustics. His two major works on the subject are Horns, Strings, and Harmony (1960) and Fundamentals of Musical Acoustics (1967). Other important acousticians of the 20th century are Cornelius Nederveen, John Coltman, and Neville Fletcher."
+			]
+		},
+		{
+			"tag": "headjoint_cork",
+			"patterns": [
+				"How much does the material and shape of a headjoint cork affect the sound?",
+				"Does the headjoint cork affect the flute sound?"
+			],
+			"responses": [
+				"According to the most recent research, the traditional cork headjoint stopper is the best choice for flute headjoints. In her 2020 Doctoral Thesis, Stephanie Hoeckley shows by single blind testing that flute players prefer a simple cork stopper to more exotic and costly commercial products."
+			]
+		},
+		{
+			"tag": "goodbye",
+			"patterns": [
+				"Bye.",
+				"See you later.",
+				"Goodbye."
+			],
+			"responses": [
+				"See you later, Thanks for visiting!",
+				"Have a nice day.",
+				"Bye! Come back again soon."
+			]
+		},
+		{
+			"tag": "thanks",
+			"patterns": [
+				"Thanks",
+				"Thank you",
+				"That's helpful",
+				"That's great"
+			],
+			"responses": [
+				"Happy to help!",
+				"Any time!",
+				"My pleasure."
+			]
+		},
+		{
+			"tag": "C#",
+			"patterns": [
+				"I have problems with my C#.",
+				"Why is C# a problem note?",
+				"Is C# a sharp note?",
+				"What can I do about my sharp C#?"
+			],
+			"responses": [
+				"The C# tonehole serves two purposes. It acts as a tonehole for C# but it is also a vent for C# and several other notes.",
+				"Yes, many people have problems with their C#.",
+				"Yes, care must be taken when designing the scale so that the C# is not too sharp but still performs as a vent."
+			]
+		},
+		{
+			"tag": "material",
+			"patterns": [
+				"Does the material of the flute affect the timbre?",
+				"What difference does the material make in the timbre of the flute?",
+				"What materials make good flutes?",
+				"Is gold a good material for flutes?",
+				"Is silver a good material for flutes?"
+			],
+			"responses": [
+				"Other factors are more important than material when building a flute.",
+				"The player will notice more difference between flutes of different materials than the listener.",
+				"In general, dense, noble metals, like silver, gold, and platinum make good flutes."
+			]
+		},
+		{
+			"tag": "opentoday",
+			"patterns": [
+				"Are you here today?",
+				"When can I ask you questions?",
+				"When is the best time to ask you questions?"
+			],
+			"responses": [
+				"I'm here 24/7/365",
+				"I love answering your questions about flute acoustics!",
+				"Ask me anything, if I don't know the answer, I'll find it for you."
+			]
+		},
+		{
+			"tag": "cleaning",
+			"patterns": [
+				"How do you clean your flute?"
+			],
+			"responses": [
+				"A flute player should only look to clean the inside and outside of the flute. Some websites will advise on cleaning separate parts of the flute which would necessitate taking parts of the flute apart. This isn’t advised for children or people who don’t know how technically to put the flute back together. A regular flute will come apart into three sections. All three sections can be cleaned using a cleaning rod with a soft cloth attached that goes through the three tubes. This takes the moisture out which keeps the inside clean. The outside of a flute can be kept clean by using a silver cleaning cloth or merely a duster. You don’t need a silver cloth on a nickel-plated flute.When a flute is serviced by a trained technician the flute will be completely stripped of all it’s key work and thoroughly cleaned top to bottom. This will include the cork that sits at the top of the head joint on a flute."
+			]
+
+		},
+		{
+			"tag": "tarnish",
+			"patterns": [
+				"Why does a flute tarnish?"
+			],
+			"responses": [
+				"Flutes can tarnish if not cleaned regularly, or from oils in the skin of the person holding and playing the flute or from heat such as halogen lights. If the flute is silver plated, silver cleaning fluid and a cleaning cloth will remove the tarnish. If the flute is nickel plated, you can try and clean the tarnish using silver polish but if it is stubborn then a flute technician will be able to clean the flute and make it look silver and shiny again using a chemical formula that isn’t available to the public."
+			]
+		},
+
+		{
+			"tag": "best_beginner",
+			"patterns": [
+				"What is the best flute for a beginner?"
+			],
+			"responses": [
+				"There are so many flutes on the market it is difficult to come up with a definitive answer. It also depends on budget and size of the prospective player. There are plastic models now available, but these are purely for young players, or may be used by schools as classroom instruments. If a player is small and can’t hold a full-sized flute, then you will need to look at curved head flutes. This enables younger/smaller players to start the flute but on a proper instrument. Trevor James, Jupiter and Yamaha all do curved head flutes that are a good student standard, and these are the flutes that are recommended by Musical Instrument Hire. If you buy a flute based on the price and because it seems a good deal it may turn out to be badly made and not enable a new or young player a fair start on learning. Some flutes are so poorly made that they are difficult to play and need a lot of repairing as parts don’t work. This can be very disruptive to learning."
+			]
+		},
+
+		{
+			"tag": "cost",
+			"patterns": [
+				"How much does it cost to have a flute re-padded?",
+				"flute re-padded costs?"
+			],
+			"responses": [
+				"A flute will only need re-padding occasionally but when it does, it needs to go to a qualified technician who will assess whether it needs a complete re-pad or just a few pad’s replacing. The pads on a flute need replacing when they don’t “sit” properly and seal the holes when the flute is played. Also, they can tear and again won’t seal properly if torn. Over time they can just wear out and need replacing. A complete re-pad will cost anything from £120.00 and a good technician will advise on any other work that needs doing at the same time."
+			]
+		},
+
+		{
+			"tag": "flutepad",
+			"patterns": [
+				"What is a flute pad?"
+			],
+			"responses": [
+				"A flute pad is cardboard backed, with a felt disc and gold beaters’ bladder as the skin."
+			]
+		},
+		{
+			"tag": "flutehold",
+			"patterns": [
+				"How do you hold a flute?"
+			],
+			"responses": [
+				"A flute is held horizontally to the right of the flautist. The left hand is nearer the body and faces the flautist and the right hand is at the bottom of the flute and faces away from the body."
+			]
+		},
+
+		{
+			"tag": "recorder",
+			"patterns": [
+				"Is the recorder a flute?",
+				"what is the difference between recorder and flute?"
+			],
+			"responses": [
+				"The recorder is in the same family of instruments – woodwind – as a flute and is very close to the fingering of a flute but it is a different instrument. Recorders can be wooden or plastic whereas flutes can be wooden, plastic (fife) or made from metal."
+			]
+		},
+
+		{
+			"tag": "sizes",
+			"patterns": [
+				"How many sizes of flute are there?",
+				"what are the sizes of the flutes"
+			],
+			"responses": [
+				"There are twelve sizes of flute. The regular flute is a concert flute and is fourth in size. A piccolo is the smallest flute (the size of a descant recorder). The largest flute is a hyper bass flute and is over 8 meters long. Its lowest note is believed to be below a normal range of hearing for a human!"
+			]
+		},
+
+		{
+			"tag": "brands",
+			"patterns": [
+				"What is the best brand of flute?"
+			],
+			"responses": [
+				"There isn’t a definitive best brand of flute. It all depends on the age, standard and budget of the player. It is a false economy for any player to purchase an in-expensive flute – they just are not fit for purpose, won’t play properly and will need many trips to a repairer for various niggle issues that can arise on a flute that isn’t built properly. Musical Instrument Hire use the brands Jupiter, Trevor James and Yamaha as their standard student flute. All three are good examples of well-built, fit for purpose student instruments. They all also come with curved head options. As a player progresses they will want to look to progressing to a flute with a solid silver head, open holes or an even higher specification of flute. Flutes will be categorised into student, intermediate, advanced and hand-made flutes."
+			]
+		},
+
+		{
+			"tag": "silver",
+			"patterns": [
+				"Are all flutes silver?"
+			],
+			"responses": [
+				"Most flutes are silver, but you will see wooden flutes now and again, and there are different “grades” of the silver flute. Musical Instrument Hire flutes are all silver plated and this is a good standard for a student flute. A lower grade of flute will be nickel plated and this basically makes the flute cheaper and the sound quality won’t be as good. A solid silver head on a silver plated bodied flute will be a higher quality, and likewise a fully solid silver flute will be better again. You can get gold plated & platinum plated flutes too, alongside customised flutes with different coloured metals as the player requires."
+			]
+		},
+
+		{
+			"tag": "openclose",
+			"patterns": [
+				"What is the difference between an open and closed hole flute?"
+			],
+			"responses": [
+				"Student flutes will all be closed hole flutes. This enables the key to be pressed down and the hole it covers to be completed covered. It helps a young player learn the keys and notes on the flute with less difficulty. An open hole flute is for the more advanced player and it is argued that an open hole flute gives a better tone as there is more scope for the sound to come out of the flute. Open hole flutes will come with “plugs” that can be put in on certain keys if required."
+			]
+		},
+		{
+			"tag": "expensiveflute",
+			"patterns": [
+				"How much is the most expensive flute in the world?"
+			],
+			"responses": [
+				"The most expensive flute sold at auction is $187,000 in 1986. This however wasn’t a regular flute and had been specially made and owned by a famous flautist. The most expensive flute to buy of the shelves is around £26,000! A normal expensive student flute you would look to pay around £600.00. There are so many brands and standards of flute though it is difficult to pin-point one pay bracket."
+			]
+		},
+
+		{
+			"tag": "flautist",
+			"patterns": [
+				"Who is the best flautist of all time?",
+				"best flautist of all time?"
+			],
+			"responses": [
+				"The most expensive flute sold at auction is $187,000 in 1986. This however wasn’t a regular flute and had been specially made and owned by a famous flautist. The most expensive flute to buy of the shelves is around £26,000! A normal expensive student flute you would look to pay around £600.00. There are so many brands and standards of flute though it is difficult to pin-point one pay bracket."
+			]
+		},
+
+		{
+			"tag": "sound",
+			"patterns": [
+				"How do you get a sound out of a flute?"
+			],
+			"responses": [
+				"A sound on a flute is achieved by blowing across the hole on the head-joint of a flute. You don’t play directly into the hole. It is like blowing across the top of a glass bottle."
+			]
+		},
+
+		{
+			"tag": "long",
+			"patterns": [
+				"How long is a flute?",
+				"what is the long of the flute?"
+			],
+			"responses": [
+				"A regular concert flute is 67 cm. There are many other flutes and apart from the piccolo they are all longer than the concert flute. A concert flute will come apart into three sections to fit into its case."
+			]
+		},
+
+		{
+			"tag": "invented",
+			"patterns": [
+				"When did the flute first get invented?"
+			],
+			"responses": [
+				"The very first flute thought to be invented was between 30,000 and 37,000 years ago and made from a tusk. It had three holes and wasn’t as long as flutes are today. The first western concert flute was created in around 1847 although there are many variants around the world, but this is the closest to the flute we know as a regular concert flute."
+			]
+		},
+
+		{
+			"tag": "gizmo",
+			"patterns": [
+				"What is a gizmo key on a flute?"
+			],
+			"responses": [
+				"The gizmo key is on the foot joint of a flute with a B foot joint. The key closes the low B tone hole which enables the flautist to play the high notes more easily. The gizmo key was introduced by Verne Q Powell."
+			]
+		},
+
+		{
+			"tag": "splitEmechanism",
+			"patterns": [
+				"What does a split E mechanism mean?"
+			],
+			"responses": [
+				"The high notes on a flute can be challenging for advanced players and the split E mechanism is an extra arm that joins the keys between G and E enabling the fingering for top E to be used but giving a more secure tone on the high note."
+			]
+		},
+
+
+		{
+			"tag": "offsetG",
+			"patterns": [
+				"What is an offset G on a flute?"
+			],
+			"responses": [
+				"The keys on a flute can be “in-line” or offset. Most student flutes will have offset keys which suits the hand position of a student better. Keys in-line is usually for a more advanced player, but it will depend on what a student is used to more than anything."
+			]
+		},
+		{
+			"tag": "trillkeys",
+			"patterns": [
+				"What are trill keys on a flute?"
+			],
+			"responses": [
+				"Trill keys enable notes to be played very quickly – especially for C and C#. They are on the lower main body of the flute and played by the right hand second or third finger. They can be used for other notes too. Trills are common in flute music and these two little keys enable the player to give this detail in their playing."
+			]
+		},
+
+		{
+			"tag": "stand",
+			"patterns": [
+				"Do I need to stand when I’m practicing flute?"
+			],
+			"responses": [
+				"The answer to that is maybe. I think that standing is the best way for you to get the best posture.My teenage daughters like to practice in their room with the door closed. When I open the door, they are sitting, not standing!  For them, when they sit, they do not have great posture. Since I am their mother as well as their teacher, I can go in and take their chair away. Then they have to stand to practice. Plus, I tell them to stand up straight and tall, and keep their head up. (It doesn’t always go over well!)So, when I say that “maybe you need to stand when you practice” my daughters point out that I sometimes sit when I practice. You can sit to practice once you have learned to sit with a good posture so that your airstream is straight. Your airstream needs to be straight, coming from below and going all the way up into your sinuses. Most young flutists cannot do that sitting down.It’s all about that straight airstream. If you are slouching or you don’t have of great posture when you are sitting, then you should be standing. Now there’s something to be said for having the sound come from your feet and go up. You are grounded when you stand, and your sound comes from below and comes out.However, on a practical basis, some people are injured. They can’t stand for long periods of time. For you it is not wrong to sit. So, if you are having trouble standing for your whole practice time, it is okay to sit. But just make sure that you are sitting with great posture. Make sure that your back is straight so your airstream can come out completely straight, and that there is no bending that interferes with that path.So, the answer is that you probably should stand to practice but there are circumstances that allow for correct sitting practice."
+			]
+		},
+
+		{
+			"tag": "newflute",
+			"patterns": [
+				"Do I need a new flute?"
+			],
+			"responses": [
+				"The simple answer is that you might need a new flute. If you have been playing on a beginner flute and you feel like your skills have come up and your tone is developing, then it might be time to step-up. The bottom line for what you need is a solid silver head joint. The body can be something else. Many step-up flutes have a silver-plated body and a solid silver or Sterling silver headjoint.If you have that, it can take you a, a long way, depending on your goals. If you want to be professional flutist, you will eventually need a professional model flute. You are the best judge as to whether and when you need a professional model flute.Now you can get a good tone on a beginner flute but at some point, you are going to hit a wall, and your tone is just not going to get any better until you “step-up” to an intermediate level flute. These flutes may add silver or gold, and a more responsive finger action from a higher quality mechanism.If you go from a step-up flute with a solid silver headjoint, to a professional model flute, you are not going to see quite the same immediate jump in tone quality. You will have to work for it. But the professional model will allow you to go so much further than the step-up.Professional models are well worth the money, depending on your goals. I have had many students go to music school with a good quality step-up instrument. They have not needed a professional model until they are in grad school.  I think that you do eventually need to go from a beginner flute to a step-up flute to continue your progress as a flutist. But, if you are the amateur flutists that plays a lot, perhaps you are in a community band, the step-up flute is probably all you will ever need. It can take you a long way.However, if you have the extra cash, then I would say, yes, move up to that professional model flute. If not, and you are stuck with a beginner flute, don’t be discouraged. You can still get a nice tone on a beginner flute. Just make sure that its maintained. Get a regular clean oil and adjust; have the pads checked and replaced when needed. Then you can be sure that the beginner flute will work for you."
+			]
+		},
+
+		{
+			"tag": "madeofflute",
+			"patterns": [
+				"What are flutes made of?"
+			],
+			"responses": [
+				"That depends on whether you are asking about beginner, step-up, or professional model flutes.Beginner, flutes usually have a mixture of metals, like silver and nickel. This mixture makes it a hardier flute for younger students. It doesn’t bend or dent as easily, and it will therefore withstand rough handling.Intermediate flutes will add silver, which is a more pliable metal, and therefore more delicate than beginner flutes. Step-up flutes usually have a silver-plated body and a solid silver headjoint. But some step-up flutes have a solid silver body as well. You also may have the option of adding gold to a step-up flute: gold to the lip plate, to the riser, to some of the keys, or sometimes they are gold plated. This of course adds to the cost of the flute.Professional model flutes have a lot more options as far as the metals that are being used, including silver, gold, and platinum in various combinations, and even in mixtures called an amalgam. For example, Haynes produces a 5% gold alloy professional model flute. It is a solid silver hand made flute with a small amount of gold mixed in with the silver. The flute looks silver, but the gold gives it a different sound.Powell makes a flute out of Aurumite. My friend Nicolle Chamberlain plays on a Powell Aurumite 9K.Additionally, you have options to add certain metals, such as a gold head joint, a gold body, a gold lip plate – or platinum. My professional model Haynes flute is solid silver with a 14K gold riser."
+			]
+		},
+
+		{
+			"tag": "whyexp",
+			"patterns": [
+				"Why are flutes so expensive?"
+			],
+			"responses": [
+				"The main two things that make flutes expensive are the content of precious metals, and the amount of time required for master craftsmen to make a flute by hand.The price of flutes will fluctuate with the market prices of silver, gold, and platinum. Beginner and step-up flutes cost less, as they contain less precious metals, and more of their components are factory made. Some step-up flutes will have a handmade Sterling silver headjoint, but a silver-plated factory-made body.So, of course if a flute has more factory-made components, and less precious metals, if will cost less. This is the case for beginner flutes. The step-up flutes have a range of prices which increase as does the value of the metal and time put in it.It pays to read the descriptions closely, so you know exactly what you are getting.Professional flutes are the most expensive because they contain the most precious metals, and of course they are handmade. If you read the book Johnny Tremain, it was about a boy who wanted to be a silversmith. So, he apprenticed with a master to learn the trade over a period of several years. Professional flute making today is similar in that master craftsman spend years learning how to form the metals into flute heads, bodies, and keys. It is this care and precision that makes this level of flute so phenomenal and expensive."
+			]
+		},
+
+
+		{
+			"tag": "askbetone",
+			"patterns": [
+				"How do I get a better tone?"
+			],
+			"responses": [
+				"Well, I have a lot of videos on how to get a better tone but let me just give you my bottom-line ideas for improving your tone.1. Drop your jaw, open up the space between your jaw.2. Open up the space between your lips. Your teeth can be apart, and your lips closed in every octave, whether you’re doing high octave or low, the answer almost always is more space.3. Open your throat, take a yawning breath, and keep the throat open while you play.4. Use great support.If you concentrate on those four things, you’ll be on your way to a fantastic tone."
+			]
+		},
+
+		{
+			"tag": "tunflutte",
+			"patterns": [
+				"How do I tune the flute?"
+			],
+			"responses": [
+				"Well, the easy thing to say is you move the head joint in and out. But we need a much more subtle method of tuning because I can be in tune with my A, but my high D is wickedly out of tune. Or my low D is wickedly out of tune. What we must do is manipulate the airstream with our embouchure. That is how we raise and lower the airstream. You don’t want to raise and lower your head. I don’t want to get flat or sharp and change things with my head. I want to move my jaw to lower or raise the airstream because if I use my jaw, then I will maintain my sound. If I move my head, the tone is going to not be the same. So, if I change the intonation by rolling in or rolling out, not only is it flat, but the tone becomes dull. And if I raise it because I need to go sharp, it becomes just airy. Thus, I using my jaw to move the airstream up and down is going to help me to tune better while maintaining a good sound."
+			]
+		},
+
+		{
+			"tag": "issmkey",
+			"patterns": [
+				"Are all flutes in the same key?"
+			],
+			"responses": [
+				"Well, no, they’re not in the same key. However, most of them are. So, if we talk about the four basic piccolo, C flute, alto flute, and bass flute, three out of the four are in the key of C. The alto flute is the in the key of G. If you have the bass, the C flute and the piccolo, they can all play the same music. If you want to warm up with etudes or something without accompaniment, then all flutes can play the same music. It is only when you add accompaniment or you are playing in a group that you must worry about the different key.Since an alto flute is in the key of G, it is not going to be able to play the same solo that a C flute can play in, unless the music is transposed to a new key.There are bigger flutes, the Contra bass and the double Contra bass flute. There is a hyper base which is an interesting low flute. But of your main flutes, three out of four are in the key of C."
+			]
+		},
+
+		{
+			"tag": "spprt",
+			"patterns": [
+				"What is support?"
+			],
+			"responses": [
+				"Well, support is a long and involved issue. So, I won’t take that time right now to fully explain it. You can read my other blogs and watch my videos on support. But I’ll just give you the basics. Support is when you breathe from your stomach and your ribcage then you tighten the muscles you will then create pressure inside. That’s what support is – internal pressure.You should be playing with support 100% of the time. If you do not play with that kind of pressure built up inside, then you are not getting the kind of tone you really could get. Support helps you to get resonance and to get a lively tone that really carries in a group, in a band, in orchestra and in solo performances.So, you want to use support. When I’m teaching my students, I often just use the word pressure. Do you have pressure? Because I think that depicts exactly what support is doing for your tone. Support is creating pressure inside by tightening my muscles and then pushing up on my tone.Support is just like the beams in a house that help hold the ceiling up. It’s holding it up and you want to think of support as holding your tone up. It is this cushion of air that pushes up on your tone."
+			]
+		},
+
+		{
+			"tag": "opholflute",
+			"patterns": [
+				"Do I need an open hole flute?"
+			],
+			"responses": [
+				"That is a question for you to answer. I’ll tell you just some of the benefits of an open hole flute, and one reason not to get open holes. But it is up to you to decide.The benefit of open holes is that it gives you a tonal resonance that you do not get on a closed hole flute. If I were to play a closed hole flute, I think you’d probably say my tone is still pretty good. You may not hear a huge difference if played on a closed hole professional model.The openings of the holes give you a little bit more sound, a little more resonance. It is in how they make those holes, and how they make the keys. In this way there is more resonance and more tone.Additionally, in late 20th and 21st century music there are a lot of extended techniques that you need open holes to be able to play. So, it’s important to have for these reasons.However, if you have some hand problems, closed holes will make it easier to play for you. You can still get a great tone without additional stress on your hands. So don’t feel pressured that you must have an open hole flute, if it is not going to be the best thing for the health of your hands.Use your best judgment when deciding an open hole flute is right for you."
+			]
+		},
+        
+        {
+			"tag": "lip_plate",
+			"patterns": [
+				"Where is the lip plate found?"
+			],
+			"responses": [
+				"lip plate found On the head joint"
+			]
+		},
+        
+        {
+			"tag": "flutists_blow",
+			"patterns": [
+				"What do flutists blow into?"
+			],
+			"responses": [
+				"flutists blow intoThe embouchure hole"
+			]
+		} ,
+        
+        {
+			"tag": "foot_joint",
+			"patterns": [
+				"What section of the flute is the foot joint?"
+			],
+			"responses": [
+				"The last section farthest from the head joint"
+			]
+		} ,
+        
+        {
+			"tag": "logo_serial",
+			"patterns": [
+				"Where is the logo and serial number usually engraved?"
+			],
+			"responses": [
+				"On the barrel joint"
+			]
+		} ,
+        
+         {
+			"tag": "embouchure_tone",
+			"patterns": [
+				"How is the tone made by blowing into the embouchure hole?"
+			],
+			"responses": [
+				"When the player blows into the embouchure hole, the pressure inside the flute is suddenly greater than the outside. That forces the air to be diverted outside. At the same time, the pressure inside the flute equilibrates and the air can go inside again. This happens hundreds of times per second and it is this alternation of air direction and increase/decrease in pressure that makes tone."
+			]
+		},
+        
+        
+          {
+			"tag": "name_head_joint",
+			"patterns": [
+				"What’s another name for the head joint?"
+			],
+			"responses": [
+                "There are many names: mouth piece, mundkopf (German), cabeza (Spanish), embouchure (French)"
+			]
+		},
+        
+         {
+			"tag": "flute_metal_made",
+			"patterns": [
+				"What metals are flutes made of?"
+			],
+			"responses": [
+                "Typically, student flutes are made of nickel silver and then silver plated. Professional flutes are made of precious metals: silver, gold, and platinum"
+			]
+		},
+        
+        {
+			"tag": "range_c",
+			"patterns": [
+				"What is the range of the C soprano flute?"
+			],
+			"responses": [
+                "flutes go down to the B below C4 using a B foot joint. Accomplished players can play above C7 to E7, and sometimes F7. This seems to be the extreme upper range of the C flute as the wavelength of F#7 is about 19mm, which is the bore diameter, and the flute no longer is a tube."
+			]
+		},
+        
+         {
+			"tag": "European_king",
+			"patterns": [
+				"who is the European king who played the flute?"
+			],
+			"responses": [
+                "Fredrick the Great, king of Prussia, played the flute well. It is said that he practiced 4 hours a day, studied with Johann Joachim Quantz, and wrote music for the flute."
+			]
+		},
+        
+        {
+			"tag": "american_president",
+			"patterns": [
+				"Did any American president play the flute?",
+				"who is the American president who plays the flute?"
+			],
+			"responses": [
+                "George Washington learned to play the flute at an early age and played throughout his life."
+			]
+		},
+        
+       {
+			"tag": "modern_flute",
+			"patterns": [
+				"Who designed the modern flute?"
+			],
+			"responses": [
+                "The modern flute with 19mm bore, made of metal, and with large toneholes was designed by Theobald Boehm, a German musician, metallurgist, and physicist."
+			]
+		},
+        
+          {
+			"tag": "first_flute_made",
+			"patterns": [
+				"Where were the first flutes made?",
+				"in which country the first flute made?"
+			],
+			"responses": [
+                "The oldest flute discovered to date was found in China and was made from a stork’s leg bone."
+			]
+		},
+        
+         {
+			"tag": "various_flutes_pitched",
+			"patterns": [
+				"What keys are the various flutes pitched in?"
+			],
+			"responses": [
+                "The piccolo is pitched in C as is the soprano flute and bass flute. The alto flute is pitched in G."
+			]
+		},
+        
+                 {
+			"tag": "flute_called",
+			"patterns": [
+				"What is a musician who plays the flute called?",
+				"what is the name of the person who plays flute?"
+			],
+			"responses": [
+                "In the US, that person is a flutist. In Europe, a flutist is a flautist."
+			]
+		}
+	]
+}

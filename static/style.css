@@ -1,0 +1,49 @@
+body{
+	background-color: black;	
+	color: #ffffff ;
+}
+
+.smtxt{
+	  position: relative;
+	  left: 1300px;
+	  bottom: 650px;
+	  right: 40px;
+/*	  border-style:outset;
+*/	width: 350px;
+	height: 350px;
+	font-size: 45px;
+	font-family:copyright;
+	background-color: black;
+	color: white;
+	text-align: center;
+  font-family: Arial, Helvetica, sans-serif ;
+
+}
+
+.button {
+  background-color: black ;
+  border: outset ;
+/*	text-decoration: underline;
+*/  color: white ;
+  padding: 20px  ;
+  text-align: center;  
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif ;
+  font-size: 20px;
+
+}
+
+.button5 {
+	border-radius: 50%;
+}
+.img{
+	width: 80%;
+	height: 900px;
+	background: url("anne-nygard-aiTo3fIOGJ0-unsplash.jpg");
+	 background-repeat: no-repeat;
+	 background-size: cover;
+	  background-position: center;
+
+}
