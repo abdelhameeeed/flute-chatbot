@@ -13,3 +13,11 @@ This Project implemented using.
 - CSS
 - Natural language processing 
 - Neural Networks
+
+## How to launch the website on you machine  
+
+clone the repo. into your machine.
+
+```sh
+git clone 
+```
