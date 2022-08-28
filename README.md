@@ -14,10 +14,14 @@ This Project implemented using.
 - Natural language processing 
 - Neural Networks
 
-## How to launch the website on you machine  
+## How to launch the website on your machine  
 
-clone the repo. into your machine.
+I recommend making a virtual enviroment first.
 
 ```sh
-git clone 
+git clone https://github.com/abdelhameeeed/flute-chatbot.git
+cd project-name
+pip install -r requirements.txt
+python app.py
 ```
+
