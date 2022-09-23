@@ -7,10 +7,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 
-
 <script>
 var i = 0;
-var txt = "Your personal ChatBot please type your questions";
+var txt = "Hi! I'm JimFela your personal ChatBot";
 var speed = 75 ;
 
 function typeWriter() {
@@ -21,7 +20,6 @@ function typeWriter() {
   }
 }
 </script>
-
 
 
   <body onload="typeWriter()">
@@ -42,6 +40,7 @@ function typeWriter() {
        <form method = 'get' action = '/'>
          <button class= "button_home button5" > Home Page </button>
        </form>
+
     </center>
 
 <div class="box"></div>
@@ -79,19 +78,18 @@ function typeWriter() {
             $("#chatbox").append(botHtml);
             document.getElementById("userInput").scrollIntoView({ block: "start", behavior: "smooth" });
 
-          // var check_res = '<label for="is_it_ok" class="confirm">' + 'Is that response match your question ? ' + '</label>' ;
-          // $("#chatbox").append(check_res);
-          // document.getElementById("userInput").scrollIntoView({ block: "start", behavior: "smooth" });
+          var check_res = '<label for="is_it_ok" class="confirm">' + 'Is that response match your question ? ' + '</label>' ;
+          $("#chatbox").append(check_res);
+          document.getElementById("userInput").scrollIntoView({ block: "start", behavior: "smooth" });
 
     
-          // var check_res_1 = '<input type="radio" id="yes" name="is_ok" value="yes">' + '<label for="yes">YES</label>' + '<input type="radio" id="no" name="is_ok" value="no">' + '<label for="no">NO</label><br>'
+          var check_res_1 = '<input type="radio" id="yes" name="is_ok" value="yes">' + '<label for="yes">YES</label>' + '<input type="radio" id="no" name="is_ok" value="no">' + '<label for="no">NO</label><br>'
 
 
-          // $("#chatbox").append(check_res_1);
-          // document.getElementById("userInput").scrollIntoView({ block: "start", behavior: "smooth" });
+          $("#chatbox").append(check_res_1);
+          document.getElementById("userInput").scrollIntoView({ block: "start", behavior: "smooth" });
           var button = '<br>' + '<button type="button" onclick="displayRadioValue()">' + 'Submit' + '</button>' + '<br>'
-          // $("#chatbox").append(button);
-          
+          $("#chatbox").append(button);
           document.getElementById("userInput").scrollIntoView({ block: "start", behavior: "smooth" });
           });          
         }

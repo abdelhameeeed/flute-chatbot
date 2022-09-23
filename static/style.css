@@ -5,13 +5,13 @@ body{
 
 .smtxt{
 	  position: relative;
-	  left: 1300px;
+	  left: 1500px;
 	  bottom: 650px;
 	  right: 40px;
 /*	  border-style:outset;
 */	width: 350px;
 	height: 350px;
-	font-size: 45px;
+	font-size: 35px;
 	font-family:copyright;
 	background-color: black;
 	color: white;
@@ -39,9 +39,9 @@ body{
 	border-radius: 50%;
 }
 .img{
-	width: 80%;
-	height: 900px;
-	background: url("anne-nygard-aiTo3fIOGJ0-unsplash.jpg");
+	width: 70%;
+	height: 800px;
+	background: url("home.png");
 	 background-repeat: no-repeat;
 	 background-size: cover;
 	  background-position: center;

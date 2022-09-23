@@ -9,11 +9,9 @@ app  = Flask(__name__)
 @app.route('/' ,  methods = ['GET' , 'POST'])
 def welcome():
     return render_template("index.html")
-
 @app.route('/chat_bot' ,  methods = ['GET' , 'POST'])
 def chatbot():
     return render_template("index_chat_bot.html")
-
 @app.route("/get" ,  methods = [ 'GET' , 'POST'] )
 def get_bot_response():    
     userText = request.args.get('msg')  

@@ -24,9 +24,121 @@
 			"responses": [
 				"A flute can be described as a woodwind instrument, generally of a tubular shape, that is played by blowing across a specially-shaped opening (known as the embouchure) in such a way as to produce a vibrating column of air whose pulsations we hear as sound. This manner of generating sound by blowing directly across the embouchure distinguishes the flute from other woodwind instruments that produce sound through the use of one or two reeds. The embouchure may be situated either at the end of the tube, as in a recorder, or on the side of the tube, as in the modern flute. A flute whose embouchure is on the side of the tube often is referred to as a “transverse” flute because the player directs the airstream across the side of the tube."
 			]
-		},	
+		},
 		
-	    	{
+		
+	       {
+			"tag": "note_range",
+			"patterns": [
+			  "What is the note range of a typical flute?"
+			  
+			],
+			
+			"responses": [
+				"Middle C, or C, is the note that you would find on the middle of the piano. An octave (eight notes above) would be C1. The next octave would be C2, etc."
+			]
+		},
+		
+		
+		
+			       {
+			"tag": "parts_note",
+			"patterns": [
+			  "How many parts does a flute have?"
+			  
+			],
+			
+			"responses": [
+				"four , There is a head joint which has the hole that you blow over, a body joint where all of the keys are pressed, and a foot joint that is worked entirely by the little finger on the right hand."
+			]
+		},
+		
+		
+				
+		
+			       {
+			"tag": "embouchure",
+			"patterns": [
+			  "What is the embouchure of a flautist?"
+			  
+			],
+			
+			"responses": [
+			"The mouth shape ,Flautists need to focus on their embouchure in order to produce clear notes."
+			]
+		},		
+		{
+			"tag": "owner",
+			"patterns": [
+				"Who is Jim Phelan ?"
+			],
+			"responses": [
+				"Jim Phelan, conservatory trained as a horn player, became general manager of the Verne Q. Powell Flute Company in 1981. It is there that he met Lillian Burkart who made flute bodies, keys, padded flutes and piccolos and tested instruments. Together in 1981 they founded Burkart-Phelan, Inc. to provide subcontract services to Powell for the manufacture of piccolos and in 1984, Jim acquired the Verne Q. Powell Company. He left Powell in 1989 to finish his mechanical engineering degree. Upon graduation Jim entered the world of mechanical engineering designing electron-beam guns, automobile components and surgical instruments. In 1997 Jim rejoined his partner in building instruments, uniting his engineering skill and his eighteen years of flute-making expertise.Today, Burkart-Phelan is a world leader in flute and piccolo manufacturing with their state-of-the-art workshop in Shirley, Massachusetts and Resona by Burkart factory in Jiashan, China. Lillian manages the Shirley workshop and Jim manages the Burkart-Phelan Asian Assets.In 1980 Jim authored the Complete Guide to the Flute. The second edition was completed in 2006. His lectures on repair, building and acoustics of musical instruments are in high demand worldwide.Burkart-Phelan, Inc. won the prestigious 2018 Manufacturer of the Year Award for creating and sustaining manufacturing jobs both in the U.S. and in Asia. also he is musician, mechanical engineer, flute maker and author, brings a level of expertise to flute making and repairing that is unmatched in the 21st century. Trained as a musician at New England Conservatory, Mr. Phelan also holds a degree in mechanical engi-neering from Northeastern University. He apprenticed in brass and woodwind repair while in high school and learned flute making with a prominent Boston firm. Mr. Phelan joined Burkart-Phelan, Inc. in 1995. His knowledge of materials, acoustics, manufacturing, and measurement are the corner- stone of the development of the Burkart Flute and the Burkart & Phelan Piccolo. He has produced a repair video, Flute Fitness, which, along with The Complete Guide to the Flute and Piccolo, passes information and training to the flutist, flute maker and repairers worldwide. A horn player, Mr. Phelan is also working on the Pope-Phelan French horn"
+			],
+			"context_set": ""
+		},
+        
+		{
+			"tag": "owner_1" ,
+			"patterns": [
+				"Who is LILLIAN B URKART?"
+			],
+			"responses": [
+			"has been a flute and piccolo maker since 1979 when she joined a prestigious Boston flute company and mastered every area of flute making. As founder and president of Burkart-Phelan Inc., founded in 1982, Ms. Burkart became devoted to improving and building hand- made piccolos. The Burkart Piccolo was premiered in 1990, setting new standards in exclusive craftsmanship and per- formance attributes. Her lectures on the piccolo and support of new works for the instrument have bolstered the status of the piccolo as a solo performance instrument. She continues to lead the industry with the development of new features, materials, mechanisms and headjoints for the piccolo and the flute. Ms. Burkart graduated from the Philadelphia College of the Performing Arts, having studied flute with Kyril Magg, Robert Cole, James Walker and John Krell. This husband and wife team collaborated to develop the Burkart Flute, which pre"
+			],
+			"context_set": ""
+		},
+        
+
+
+		{
+			"tag": "wave",
+			"patterns": [
+				"What is a wave?",
+				"What is a standing wave?"
+			],
+			"responses": [
+				"A wave is a feature of nature that moves energy from one place to another. Think of an ocean wave. Ocean waves are caused by many things, but all of those things are moving; wind,the moon, the ocean floor by earthquake, and volcanos. The kinetic (moving) energy that these things exert on the ocean move the water. They cause a ripple or wave and that radiates from the excitation point in every  direction. Sound waves are similar. Dropping a spoon onto the floor makes no sound until it contacts the floor. The impact causes the spoon to vibrate. Those vibrations, in turn, vibrate the air around them and the energy is broadcast in every direction as sound waves. Radio waves and other electro-magnetic waves are a bit different. Ocean waves and sound waves need a fluid medium for propagation.  Electromagnetic waves do not. Electromagnetic waves contain electric and magnetic vectors that work with/against each otherand can travel through vacuum. Whether the wave is mechanical (sound and fluid   waves) or electromagnetic (radio, x-ray, light) they are all mechanisms for carrying or moving energy from one place to another over time."
+			]
+		},
+		{
+			"tag": "crown",
+			"patterns": [
+				"How much does the weight of a headjoint crown affect the sound?"
+			],
+			"responses": [
+				"There are a few ways to look at this question. First, the weight of the headjoint crown adds to the total mass of the flute. There is an equation used for designing percussion instruments that goes like this: The small  is for frequency. E stands for Young’s modulus, a measure of stiffness. Rho is mass. So, as E goes up,  goes up. As rho goes up,  goes down. This makes sense. Stiff, brittle things like glasses have high pitches when struck. Massive, less brittle things like iron bells have low pitches. Therefore, as we add mass to our flute, we damp out the higher harmonics or partials from the sound and we get a darker, warmer timbre.Another way to look at this is as the flute player and flute as a system. The flute responds to the flutist playing it and the player responds to the way the flute feels in her hands. If the flute feels heavier, the player has a different feeling than if it is lighter and will adjust accordingly. All this said, the crown is separate from the vibrating mass of air inside the flute, so its affect on the sound is quite small and for most people will be unnoticeable."
+			]
+		},
+		{
+			"tag": "thin_tube",
+			"patterns": [
+				"Why can some flutes sound powerful despite having a thin and light tube?"
+			],
+			"responses": [
+				"The volume of sound a flute produces is a function of the air inside the tube, not the tube itself. Moreover, the volume depends greatly on the conversion of the moving air the player blows into the embouchure hole into acoustical energy. Let’s see how this happens. We know if blow lightly into the flute, we get a soft sound. More air, the more volume of sound. So, it follows that the volume of sound relates directly to the volume of air blown in. But there is also the efficiency with which the air is converted into sound waves. This depends on the geometry of the embouchure hole. So, if we find a light-body flute with a big sound, it is most likely the headjoint that is responsible. If we want to look specifically at the flute body tube and its affect on the volume of sound, we can borrow from calculus and use the concept of ‘limits’. If we made the body of the flute paper thin, so thin that it would vibrate from the sound waves inside of it, it would be taking energy away from the vibrating mass of air inside the flute and would greatly diminish the energy available to vibrate our eardrums. The harder and stiffer the tubing material, the less energy can transfer to the tube and the more energy is available for the listener to hear."
+			]
+		},
+		{
+			"tag": "materials",
+			"patterns": [
+				"How do materials affect a flute’s sound?"
+			],
+			"responses": [
+				"First, let’s distinguish between the two components of ‘sound’, pitch and timbre. Pitch is a scientific term. It is how many wave crests hit our ears per second. A-440 means 440 wave crests hit our ears per second. Imagine someone tapping a knife on a table or a drummer’s stick hitting the drum head. Now, imagine that happening 440 times in one second. It would sound the pitch we describe as A-440. Timber is another thing. Timbre is the color of the sound. Where pitch is two-dimensional, timbre is three-dimensional. Timbre can be bright or dark, harsh or sweet, depending on the mix of partials that comprise the tone. A physicist will tell you that the material of the flute, or any wind instrument for that matter, makes no difference. If you ask a musician, they’ll say, of course it makes a difference. Who’s right? The answer is the material the flute is made of makes a slight difference in the timbre and makes no difference in the pitch. The pitch is determined solely by the geometry of the flute – it’s embouchure hole, headjoint taper, bore, and toneholes. Anecdotally, heavier walled flutes have a darker timbre and thinner walled flutes have a brighter timbre. Gold and platinum flutes tend to have darker timbres. Here, we can put forth the hypothesis that it is the total mass of the flute and the hardness of the metal that affects the timbre. For more on this subject, please ask more specific questions about mass and hardness."
+			]
+		},
+		{
+			"tag": "timbre",
+			"patterns": [
+				"What is the difference between pitch and timbre?",
+				"What are the components of a musical sound?"
+			],
+			"responses": [
+				"Pitch is a scientific term. It is how many wave crests hit our ears per second. A-440 means 440 wave crests hit our ears per second. Imagine someone tapping a knife on a table or a drummer’s stick hitting the drum head. Now, imagine each happening 440 times in one second. Each would sound the pitch we describe as A-440, but the knife on the table and the drummer’s drumming would have different timbres.Timbre is the color of the sound. Where pitch is two-dimensional, timbre is three-dimensional. Timbre can be bright or dark, harsh or sweet, depending on the mix of partials that comprise the tone"
+			]
+		},
+		{
 			"tag": "harmonics",
 			"patterns": [
 				"What are harmonics?",
