@@ -19,6 +19,8 @@ classes = pickle.load(open('classes.pkl','rb'))
 
 nltk.download('punkt')
 nltk.download('omw-1.4')
+nltk.download('wordnet')
+
 # In[2]:http
 
 
