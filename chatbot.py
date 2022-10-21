@@ -49,6 +49,7 @@ def bow(sentence, words, show_details=True):
     return(np.array(bag))
 
 def predict_class(sentence):
+    return []
     # filter out predictions below a threshold
     p = bow(sentence, words,show_details=False)
     res = model.predict(np.array([p]))[0]
