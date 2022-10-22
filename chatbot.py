@@ -49,7 +49,7 @@ def bow(sentence, words, show_details=True):
     return(np.array(bag))
 
 def predict_class(sentence):
-    return []
+    
     # filter out predictions below a threshold
     p = bow(sentence, words,show_details=False)
     res = model.predict(np.array([p]))[0]
@@ -57,10 +57,12 @@ def predict_class(sentence):
     results = [[i,r] for i,r in enumerate(res) if r > ERROR_THRESHOLD]
     # sort by strength of probability
     results.sort(key=lambda x: x[1], reverse=True)
-    return_list = []
-    for r in results:
-        return_list.append({"intent": classes[r[0]], "probability": str(r[1])})
-    return return_list
+    return_list = [{"intent": classes[results[0][0]], "probability": str(results[0][1])}]
+    return return_list 
+    
+#     for r in results:
+#         return_list.append({"intent": classes[r[0]], "probability": str(r[1])})
+#     return return_list
 
 
 def getResponse(ints, intents_json):
