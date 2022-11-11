@@ -17,9 +17,7 @@ intents = json.loads(open('intents.json').read())
 words = pickle.load(open('words.pkl','rb'))
 classes = pickle.load(open('classes.pkl','rb'))
 
-nltk.download('punkt')
-nltk.download('omw-1.4')
-nltk.download('wordnet')
+nltk.download('popular')
 
 # In[2]:http
 
