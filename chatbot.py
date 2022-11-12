@@ -27,7 +27,7 @@ classes = pickle.load(open('classes.pkl','rb'))
 def clean_up_sentence(sentence):
     # tokenize the pattern - split words into array
 #    sentence_words = nltk.word_tokenize(sentence)
-   sentence_words = sentence.split(' ')
+    sentence_words = sentence.split(' ')
 
 #     sentence_words = sentence.split()
     
