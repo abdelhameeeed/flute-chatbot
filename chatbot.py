@@ -4,7 +4,7 @@
 # In[ ]:
 
 
-import nltk
+# import nltk
 from nltk.stem import WordNetLemmatizer
 lemmatizer = WordNetLemmatizer()
 import pickle
@@ -13,11 +13,12 @@ from keras.models import load_model
 model = load_model('chatbot_model.h5')
 import json
 import random
+
 intents = json.loads(open('intents.json').read())
 words = pickle.load(open('words.pkl','rb'))
 classes = pickle.load(open('classes.pkl','rb'))
 
-nltk.download('popular')
+# nltk.download('popular')
 
 # In[2]:http
 
@@ -25,7 +26,9 @@ nltk.download('popular')
 
 def clean_up_sentence(sentence):
     # tokenize the pattern - split words into array
-    sentence_words = nltk.word_tokenize(sentence)
+#    sentence_words = nltk.word_tokenize(sentence)
+   sentence_words = sentence.split(' ')
+
 #     sentence_words = sentence.split()
     
     # stem each word - create short form for word
